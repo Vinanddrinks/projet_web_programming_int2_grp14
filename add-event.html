@@ -1,0 +1,105 @@
+<DOCTYPE html>
+<html>
+        <head>
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title> Add an event </title>
+            <link rel= "stylesheet" href= "css/style.css">
+            <link rel= "stylesheet" href= "add-event.css">  
+        </head>
+
+        <body>
+            <header>
+                <image class="logo" src="images/LogoEfCalendar.png" alt="logo"></image>
+                <nav class="navBar"></nav>
+                    <ul class="nav_link">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="#" >Add-Event</a></li>
+                        <li><a href="#">My Calendar</a></li>
+                        <li><a href="#">About Us</a> </li>
+                    </ul>      
+                </nav>
+                <a class="contact" href="#"><button>Contact</button></a>
+            </header>
+
+            <div class="card">
+                <label class="titleCard">Create an event</label>
+                <form>
+                    <input type="text" class="enter" name="Title" placeholder="Title">
+                            
+                    <div class="div_toggle">
+                        <label class="toggle">
+                            <span class="switch">Only for members</span>
+                            <input type="checkbox" /> <!-- faire disparaitre-->
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                    <select class="choix-association" name="Asssociation">
+                        <option value="Association" selected>Association</option>
+                        <option value="Horizon">Horizon</option>
+                        <option value="Club-rézo">Club-rézo</option>
+                        <option value="Efrei international">Efrei international</option>
+                        <option value="Asian'Efrei">Asian'Efrei</option>
+                        <option value="BDS">BDS</option>
+                        <option value="BDA">BDA</option>
+                        <option value="BDE">BDE</option>
+                        <option value="NamastEfrei">NamastEfrei</option>
+                        <option value="Efr'Action">Efr'Action</option>
+                        <option value="Efrei Chefs">Efrei Chefs</option>
+                        <option value="La Taverne du Troll">La Taverne du Troll</option>
+                        <option value="WEI">WEI</option>
+                        <option value="Make Me Up">Make Me Up</option>
+                        <option value="4eSport'">4eSport</option>
+                        <option value="FAP Efrei">FAP Efrei</option>
+                        <option value="Efrei-linux">Efrei-linux</option>
+                        <option value="Live Efrei">Live Efrei</option>
+                        <option value="Efrei poker">Efrei poker</option>
+                        <option value="Pandora">Pandora</option>
+                        <option value="Crobot'ic">Crobot'ic</option>
+                        <option value="Kanon">Kanon</option>
+                        <option value="OGMA">OGMA</option>
+                        <option value="Toodoum">Toodoum</option>
+                        <option value="Symbioz">Symbioz</option>
+                        
+                    </select>
+                    <input type="text" class="enter" placeholder="more information">
+                    <input type="text" class="enter" placeholder="Location">
+
+                    <div class="choice-color">
+                        <label>Color</label>
+                        <input type="color" value="#D92305" name="red">
+                        <input type="color" value="#EB8C04" name="orange">
+                        <input type="color" value="#FEF86C" name="orange">
+                        <input type="color" value="#5BE0C8" name="turquoise">
+                        <input type="color" value="#82E3F8" name="bleu">
+                        <input type="color" value="#6960EC" name="bleu">
+                    </div>
+
+                    <div class="date_hour">
+                        <label for="date" class="date_label">Date of the event</label>
+                        <input type="date" class="date" id="dateid">
+
+                        <div class="hours">
+                            <input type="time" class="hour" id="hour1">
+                            <input type="time" class="hour" id="hour2">
+                        </div>
+
+                    </div>
+                                      
+                    <div class="validation">
+                        <button type="submit" class="validate">Validate</button>
+                        <button type="reset" class="cancel">Cancel</button>
+                    </div>
+
+                    
+
+
+                </form>
+            </div>
+            <script type="text/javascript" src="toggle.js"></script>
+        </body>
+
+</html>
+
+                                        
